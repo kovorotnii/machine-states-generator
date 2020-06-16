@@ -9,6 +9,8 @@
   "author": "kovorotniy",
   "license": "ISC",
   "dependencies": {
-    "thingsboard_api": "^1.0.14"
+    "dotenv": "^8.2.0",
+    "thingsboard_api": "^1.0.14",
+    "winston": "^3.2.1"
   }
 }
