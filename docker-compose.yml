@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  machine-states-gen:
+    image: kovorotniy/states-generator
+    container_name: machine-states-generator
+    environment: 
+      - TB_HOST=127.0.0.1
+      - TB_PORT=8080
+      - TB_USERNAME=tenant@thingsboard.org
+      - TB_PASSWORD=tenant
+      - TIME_START=1579194506000
+      - TIME_STOP=1592324939000
+      - STEP=600000
+    network_mode: "host"
+    command: ["node", "index.js"]
