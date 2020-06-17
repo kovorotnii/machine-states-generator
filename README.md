@@ -1,6 +1,6 @@
-#machine-states-generator
+# machine-states-generator
 
-### States generator for custom type in thingboard - `machine`
+### States generator for custom type in thingsboard - `machine`
  - Tool is used for generating telemetry for new instances of hardware-monitoring-project
 
 ### Installation & Launch
